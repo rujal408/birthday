@@ -1,0 +1,39 @@
+#main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.child{
+    flex: 50%;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.month{
+    height: 222px;
+    width:222px;
+    margin: 12px;
+    flex: 25%;
+}
+.month>h1{
+    text-align: center;
+    font-size: 24px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
